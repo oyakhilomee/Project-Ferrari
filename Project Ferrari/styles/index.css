@@ -4,25 +4,21 @@
 }
 
 header {
-    background-image: url(/assets/pic.jpg);
-
+    background-image: url(../assets/pic.jpg);
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-   
 }
-
 
 .overlay {
     height: 100vmin;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 body {
     color: white;
     font-family: sans-serif;
-    background-color: black;
-    
+    background-color: black; 
 }
 
 ul li {
@@ -43,16 +39,22 @@ li {
     margin-right: 40px;
 }
 
+.Contact-Us:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
 .oyas {
-    height: 70vmin;
+    height: 80vmin;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.oyas p {
-    font-size: 5rem;
+.oyas .btn2 {
+    font-size: 4rem;
 }
 
 button {
@@ -60,16 +62,27 @@ button {
     padding: 0px 10px 0px 10px;
     border-radius: 4px;
     border: none;
-    background-color: rgb(230, 82, 14);
+    background-color: rgb(216, 70, 22);
     color: white;
     font-weight: bold;
+}
 
+.btn2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0.5px solid;
+    padding: 05px 15px 05px 15px;
+    border-radius: 5px; 
+}
+
+.btn2:hover {
+    background-color:  rgba(216, 70, 22,0.5);
+    color: yellow;
 
 }
 
-button:hover {
-    background-color: yellow;
-    color: black;
-    cursor: pointer;
+.logo {
+    height: 40px;
+    float: left;
+    position: relative;
+    margin: 35px 15px 0px 25px;
 }
-
