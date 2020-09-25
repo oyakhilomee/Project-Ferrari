@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/assets/pic.jpg);
+
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+   
+}
+
+
+.overlay {
+    height: 100vmin;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+.link1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px 0px 15px;
+}
+
+li {
+    padding: 20px 0px 0px 15px;
+}
+
+.Contact-Us {
+    margin-right: 40px;
+}
+
+.oyas {
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.oyas p {
+    font-size: 5rem;
+}
+
+button {
+    margin: 10px 15px -10px 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(230, 82, 14);
+    color: white;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
