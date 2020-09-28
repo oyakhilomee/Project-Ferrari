@@ -50,7 +50,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .oyas .btn2 {
@@ -78,7 +77,6 @@ button {
     background-color:  rgba(216, 70, 22,0.5);
     color: yellow;
     cursor: pointer;
-
 }
 
 .logo {
